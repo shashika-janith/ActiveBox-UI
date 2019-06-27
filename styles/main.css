@@ -1,0 +1,307 @@
+/* fonts */
+@font-face {
+    font-family: OpenSansBold;
+    src: url("../fonts/OpenSans-Bold.ttf");
+}
+
+@font-face {
+    font-family: OpenSans;
+    src: url("../fonts/OpenSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: Raleway;
+    src: url("../fonts/raleway.regular.ttf");
+}
+
+@font-face {
+    font-family: RalewayLight;
+    src: url("../fonts/Raleway-Light.ttf");
+}
+
+@font-face {
+    font-family: RalewayBold;
+    src: url("../fonts/Raleway-Bold.ttf");
+}
+
+@font-face {
+    font-family: Webdingd;
+    src: url("../fonts/webdings.ttf");
+}
+
+@font-face {
+    font-family: CardoItalic;
+    src: url("../fonts/Cardo-Italic.ttf");
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.scrolled {
+    background-color: rgba(49, 52, 84, 0.9) !important;
+    transition-property: background-color, width;
+    transition-timing-function: ease;
+    transition-duration: 0.3s;
+    width: 100% !important;
+}
+
+nav {
+    transition-property: background-color, width;
+    transition-timing-function: ease;
+    transition-duration: 0.3s;
+}
+
+a {
+    cursor: pointer;
+}
+
+.card-text {
+    color: #7c7c7d;
+}
+
+.btn {
+    border-radius: 3px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.btn-danger {
+    background-color: #e84545;
+}
+
+.work {
+    position: relative;
+    width: 25%;
+    height: 250px;
+    align-self: center;
+    overflow: hidden;
+    border: 1px solid #ffffff;
+}
+
+.nav-link {
+    color: #ffffff;
+    font-family: Raleway;
+    font-weight: bold;
+}
+
+.jumbotron {
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+
+.jumbotron a {
+    width: fit-content;
+    width: -moz-fit-content;
+    color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.jumbotron p {
+    color: #ffffff; 
+    text-align: center; 
+    font-family: Raleway; 
+    font-size: 20px;
+}
+
+.display-4 {
+    text-align: center;
+    width: 50%;
+    color: #ffffff; 
+    text-transform: capitalize; 
+    font-family: OpenSansBold;
+}
+
+
+
+.overlay {
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    background-color: #d23f3f;
+    opacity: 0;
+    transition-duration: .5s;
+}
+
+.text {
+    width: fit-content;
+    width: -moz-fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20%;
+}
+
+.overlay p{
+    color: #ffffff;
+    font-family: Raleway;
+    text-align: center;
+    margin: 0%;    
+}
+
+.overlay:hover {
+    opacity: 0.8;
+}
+
+#features {
+    margin: 100px 0px;
+}
+
+.card {
+    margin: 5px 0px;
+    height: 100%;
+    border: none;
+}
+
+.feature {
+    width: 60px;
+    height: 60px;
+    align-self: center;
+}
+
+/* .team-p {
+    color: #6c7279;
+} */
+
+#team div {
+    width: auto;
+}
+
+#download button {
+    /* padding-left: 40px; */
+    /* padding-right: 40px; */
+    margin-top: 10px;
+}
+
+#download {
+    margin-bottom: 100px;
+}
+
+#works {
+    margin-bottom: 3rem;
+}
+
+#team .member-card{
+    margin-bottom: 3rem;
+}
+
+#team .card-body {
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+#team .row {
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+#team .row .sm-logo {
+    width: 40px;
+    height: 40px;
+    border: solid 1px #c6cacc;
+    padding-top: 8px;
+    margin: 0 3px 0 0 !important;
+}
+
+.carousel-item img {
+    overflow: hidden;
+}
+
+.carousel {
+    margin-bottom: 100px;
+}
+
+.quote {
+    font-family: CardoItalic;
+    font-size: 2rem;
+    text-align: left;
+}
+
+.author {
+    font-family: RalewayBold; 
+    text-transform: uppercase;
+    font-size: 1rem;
+    text-align: left;
+}
+
+#footer {
+    background-color: #3a3e64;
+    padding-top: 71px;
+    padding-bottom: 88px;
+}
+
+.sm-logo {
+    width: 40px;
+    height: 40px;
+    border: solid 2px #ffffff;
+    padding-top: 8px;
+    margin: 5px;
+}
+
+#footer p {
+    color: #ffffff;
+    font-family: Raleway;
+}
+
+#copyright {
+    background-color: #313454;
+    color: #7c7c7d;
+    padding-top: 29px;
+    padding-bottom: 29px;
+    font-family: OpenSans;
+}
+
+#copyright p {
+    margin-bottom: 0;
+}
+
+/* media queries */
+@media screen and (max-width: 1200px) {
+    .work {
+        position: relative;
+        width: 33%;
+        height: 220px;
+        align-self: center;
+        overflow: hidden;
+    }    
+}
+
+@media screen and (max-width: 992px) {
+       .carousel-caption {
+        right: 0%;
+        bottom: 0%;
+        left: 0%;
+        background-color: rgb(0, 0, 0, 0.5);
+        padding-left: 10px;
+        padding-right: 10px;
+    } 
+}
+
+@media screen and (max-width: 768px) {
+    .work {
+        position: relative;
+        width: 80%;
+        height: 300px;;
+        align-self: center;
+        overflow: hidden;
+    }
+
+    .sm-logo {
+        margin-bottom: 0% !important;
+    }
+
+    #footer {
+        padding-bottom: 0%;
+    }
+
+    #footer .row div {
+        margin-bottom: 3rem;
+    }
+
+}
